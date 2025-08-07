@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  whisper-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8001:8001"
+    volumes:
+      - ./uploaded_audio:/app/uploaded_audio
+    restart: unless-stopped

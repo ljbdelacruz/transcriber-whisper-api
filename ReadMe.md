@@ -135,3 +135,9 @@ python download_model.py
 ```
 
 This will download the model to your local cache so it doesn't need to be downloaded when starting the application.
+
+
+# Sample Demo 
+## Links:
+https://www.youtube.com/watch?v=O7z4CqbpZ2s&t=27s&ab_channel=LJPH
+
